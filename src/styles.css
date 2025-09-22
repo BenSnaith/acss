@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Barakat";
+  src: url("/public/fonts/Barakat/Barakat-BF65f54fe8ba021.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@theme {
+  --aston-blue: #66D9D6;
+  --glass: rgba(255, 255, 255, 0.12);
+}
+
+@layer base {
+  :root {
+    color: white
+  }
+}
+
+@utility nav-link {
+  @apply text-lg text-(--aston-blue) hover:text-(--aston-blue)/50 hover:translate-y-0.5 transition duration-150;
+}
+
+.logo {
+  font-family: Barakat, monospace;
+}
+
+.glass {
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5.4px);
+  -webkit-backdrop-filter: blur(5.4px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
