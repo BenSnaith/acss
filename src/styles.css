@@ -19,16 +19,9 @@
 }
 
 @utility nav-link {
-  @apply text-lg text-(--aston-blue) hover:text-(--aston-blue)/50 hover:translate-y-0.5 transition duration-150;
+  @apply text-lg text-white hover:text-white/80 hover:translate-y-0.5 transition duration-150 font-mono;
 }
 
 .logo {
   font-family: Barakat, monospace;
-}
-
-.glass {
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(5.4px);
-  -webkit-backdrop-filter: blur(5.4px);
-  border: 1px solid rgba(255, 255, 255, 0.3);
 }
