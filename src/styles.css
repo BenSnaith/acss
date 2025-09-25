@@ -14,12 +14,16 @@
 
 @layer base {
   :root {
-    color: white
+    color: white;
   }
 }
 
 @utility nav-link {
   @apply text-lg text-white hover:text-white/80 hover:translate-y-0.5 transition duration-150 font-mono;
+}
+
+@utility active-nav-link {
+  @apply bg-orange-500;
 }
 
 .logo {
