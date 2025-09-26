@@ -19,11 +19,11 @@
 }
 
 @utility nav-link {
-  @apply text-lg text-white hover:text-white/80 hover:translate-y-0.5 transition duration-150 font-mono;
+  @apply p-2 text-lg text-white hover:text-white/80 hover:translate-y-0.5 transition duration-150 font-mono;
 }
 
 @utility active-nav-link {
-  @apply bg-orange-500;
+  @apply flex items-center justify-center bg-gradient-to-tl from-(--aston-blue) to-blue-600 rounded-2xl ;
 }
 
 .logo {
